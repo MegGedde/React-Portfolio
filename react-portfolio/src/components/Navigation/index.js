@@ -12,13 +12,17 @@ function Navigation(props) {
     return (
             <ul className="navigation">
                 {categories.map((category) => (
-                <li className={`mx-1 ${currentCategory.name === category.name && 'navActive'}`}>
-                {category.name}
+                <li
+                className={`mx-1 ${
+                  currentCategory.name === category.name && `navActive`
+                  }`}
+                key={category.name}
+              >
                <span
                  onClick={() => {
                    setCurrentCategory(category);
                  }}
-               ></span>
+               >    {category.name}</span>
              </li>
                 ))}
                 {/* /* <li>Portfolio</li>

@@ -5,7 +5,7 @@
 }
 
 .App-header {
-  background-image: url(./leopard.jpg);
+  background-image: url(./assets/leopard.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -53,10 +53,36 @@ footer li {
   list-style: none;
 }
 
+.navActive {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
 nav li {
   padding: 20px;
   font-size: calc(12px + 2vmin);
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
   background-color: var(--secondary-color);
+}
 
+header nav ul li:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  text-shadow: none;
+}
+
+.profPic {
+  background-image: url(./assets/Profile.jpeg);
+  padding: 10%;
+  margin-left: 2.5%;
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  width: 100%;
+}
+
+.bio {
+  width: 75%;
 }

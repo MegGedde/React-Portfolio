@@ -3,9 +3,11 @@ import React from 'react';
 function Project({ currentCategory }) {
     const { name, description } = currentCategory;
     return (
-    <section>
-        <h1>{name}</h1>
-        <p>{description}</p>
+    <section className="flex">
+        <h1 className="title">{name}</h1>
+        <img className={`${name === "About Me" && `profPic`}`}
+               key={'pic'}></img>
+        <p className="bio">{description}</p>
         
       </section>
     );
