@@ -3,6 +3,8 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Project from './components/Project';
+import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
   const [categories] = useState([
@@ -20,12 +22,27 @@ function App() {
   ]);
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
+  function renderComponent() {
+    if(currentCategory.name === "Portfolio") {
+      return <Project></Project>
+    } 
+    else if(currentCategory.name === "About Me") {
+      return <About></About>
+    }
+    // else if(currentCategory.name === "Resume") {
+    //   return <Resume></Resume>
+    // }
+    else if(currentCategory.name === "Contact") {
+      return <Contact></Contact>
+    }
+  }
+
   return (
     <div className="App">
       <Header currentCategory={currentCategory} setCurrentCategory={setCurrentCategory} categories={categories}/>
-        <body>
-          <Project currentCategory={currentCategory}></Project>
-        </body>
+        <main>
+          {renderComponent()}
+        </main>
       <Footer />
     </div>
   );
