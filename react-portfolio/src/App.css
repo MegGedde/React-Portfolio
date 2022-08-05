@@ -117,11 +117,15 @@ header nav ul li:hover {
 }
 
 .profPic {
-  background-image: url(./assets/Profile.jpeg);
-  padding: 10%;
   margin-left: 2.5%;
-  background-position: center;
-  background-size: cover;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
 }
 
 .title {
@@ -130,6 +134,8 @@ header nav ul li:hover {
 
 .bio {
   width: 75%;
+  margin-left: 2.5%;
+  font-size: 1.5vw;
 }
   
   /* Contact style begin */
