@@ -81,6 +81,12 @@ header h1 {
   justify-content: center;
   display: flex;
   flex-direction: row;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.pic {
+  max-height: 5vw;
 }
 
 footer li {
