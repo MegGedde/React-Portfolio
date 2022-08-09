@@ -24,10 +24,13 @@ body {
 /* CARDS */
 .card {
   margin: 15px;
-  border: 3px solid var(--secondary-color);
-  width: 45%;
+  width: 35%;
   background-color: var(--tertiary-color);
   color: var(--secondary-color);
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-header {
@@ -39,6 +42,21 @@ body {
 .card-body {
   padding: 2.5%;
   font-size: 1.4rem;
+  align-items: center;
+  text-align: center;
+}
+
+.github {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 20px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.github:hover {
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
 }
 
 .flex {
@@ -51,7 +69,7 @@ body {
 .flexBox {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 header h1 {
@@ -83,6 +101,8 @@ footer li {
 .image {
   opacity: 50%;
   width: 90%;
+  margin-left: 5%;
+  align-items: center;
 
 }
 
