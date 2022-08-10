@@ -87,6 +87,11 @@ header h1 {
 
 .pic {
   max-height: 5vw;
+  opacity: 90%;
+}
+
+.pic:hover {
+  opacity: 100%;
 }
 
 footer li {
@@ -161,6 +166,7 @@ header nav ul li:hover {
 .bio {
   width: 75%;
   margin-left: 2.5%;
+  margin-right: 2.5%;
   font-size: 1.5vw;
 }
   
