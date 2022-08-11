@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.6dc6e611.css",
-    "main.js": "/React-Portfolio/static/js/main.ba8d64f0.js",
+    "main.js": "/React-Portfolio/static/js/main.ed7882ea.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/leopard.jpg": "/React-Portfolio/static/media/leopard.31b46ca61b584c020670.jpg",
     "static/media/Profile.jpeg": "/React-Portfolio/static/media/Profile.47f109d467d0c70c8cf3.jpeg",
     "static/media/run-buddy.jpg": "/React-Portfolio/static/media/run-buddy.30f2ee3b4df15d52db31.jpg",
+    "static/media/dei.jpg": "/React-Portfolio/static/media/dei.d98777d8ae975b200adf.jpg",
     "static/media/sunbuddy.jpg": "/React-Portfolio/static/media/sunbuddy.74e96f183c1349905779.jpg",
     "static/media/unleashed.jpg": "/React-Portfolio/static/media/unleashed.398bd9c626f017922b15.jpg",
     "static/media/email.jpg": "/React-Portfolio/static/media/email.6c499c8f2c3e575d0bbf.jpg",
@@ -13,11 +14,11 @@
     "static/media/linkedin.jpg": "/React-Portfolio/static/media/linkedin.8a761d3d3cd5d438e3b6.jpg",
     "index.html": "/React-Portfolio/index.html",
     "main.6dc6e611.css.map": "/React-Portfolio/static/css/main.6dc6e611.css.map",
-    "main.ba8d64f0.js.map": "/React-Portfolio/static/js/main.ba8d64f0.js.map",
+    "main.ed7882ea.js.map": "/React-Portfolio/static/js/main.ed7882ea.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6dc6e611.css",
-    "static/js/main.ba8d64f0.js"
+    "static/js/main.ed7882ea.js"
   ]
 }
