@@ -3,13 +3,6 @@ import React from 'react';
 function Project() {
     const cardInfo = [
       {
-          title: "SunFund",
-          site: "https://meggedde.github.io/SunFund/",
-          github: "https://github.com/MegGedde/SunFund",
-          tech: "Technologies Used: HTML / CSS / JavaScript ",
-          image: require("../../assets/sunbuddy.jpg")
-      },
-      {
         title: "Unleashed",
         site: "https://unleashed-pets-finder.herokuapp.com/",
         github: "https://github.com/MegGedde/Unleashed",
@@ -17,10 +10,18 @@ function Project() {
         image: require("../../assets/unleashed.jpg")
     },
     {
-        title: "project 3",
-        site: "https://meggedde.githubuigody/",
-        github: "https://github.comiouyude/run-buddy",
-        tech: "Technologies Used: Full MERN Stack (Mongoose, Express.js, React, Node.js)"
+        title: "DEI Calendar",
+        site: "https://serene-mesa-60189.herokuapp.com/",
+        github: "https://github.com/petehodnefield/project-three",
+        tech: "Technologies Used: Full MERN Stack (Mongoose, Express.js, React, Node.js)",
+        image: require("../../assets/dei.jpg")
+    },
+    {
+        title: "SunFund",
+        site: "https://meggedde.github.io/SunFund/",
+        github: "https://github.com/MegGedde/SunFund",
+        tech: "Technologies Used: HTML / CSS / JavaScript ",
+        image: require("../../assets/sunbuddy.jpg")
     },
     {
         title: "Run Buddy",
