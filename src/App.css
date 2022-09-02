@@ -121,6 +121,10 @@ footer li {
   opacity: 100%;
 }
 
+.desc {
+  font-weight: 300;
+}
+
 .navigation {
   justify-content: right;
   display: flex;
