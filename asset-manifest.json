@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.6dc6e611.css",
-    "main.js": "/React-Portfolio/static/js/main.85c3cfdf.js",
+    "main.css": "/React-Portfolio/static/css/main.c81abbe3.css",
+    "main.js": "/React-Portfolio/static/js/main.bbaf0e35.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/leopard.jpg": "/React-Portfolio/static/media/leopard.31b46ca61b584c020670.jpg",
     "static/media/Profile.jpeg": "/React-Portfolio/static/media/Profile.47f109d467d0c70c8cf3.jpeg",
@@ -13,12 +13,12 @@
     "static/media/github.jpg": "/React-Portfolio/static/media/github.000c0c6864f00f4b82b5.jpg",
     "static/media/linkedin.jpg": "/React-Portfolio/static/media/linkedin.8a761d3d3cd5d438e3b6.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.6dc6e611.css.map": "/React-Portfolio/static/css/main.6dc6e611.css.map",
-    "main.85c3cfdf.js.map": "/React-Portfolio/static/js/main.85c3cfdf.js.map",
+    "main.c81abbe3.css.map": "/React-Portfolio/static/css/main.c81abbe3.css.map",
+    "main.bbaf0e35.js.map": "/React-Portfolio/static/js/main.bbaf0e35.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dc6e611.css",
-    "static/js/main.85c3cfdf.js"
+    "static/css/main.c81abbe3.css",
+    "static/js/main.bbaf0e35.js"
   ]
 }
